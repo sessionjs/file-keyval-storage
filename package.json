@@ -1,0 +1,31 @@
+{
+  "name": "@session.js/file-keyval-storage",
+  "version": "1.0.0",
+  "module": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Viktor Shchelochkov <hi@hloth.dev> (https://hloth.dev)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sessionjs/file-keyval-storage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sessionjs/file-keyval-storage/issues"
+  },
+  "homepage": "https://github.com/sessionjs/file-keyval-storage#readme",
+  "description": "Persistant file-based key-value storage adapter for @session.js/client",
+  "type": "module",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@session.js/types": "^1.0.0"
+  }
+}
