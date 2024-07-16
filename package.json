@@ -26,6 +26,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@session.js/types": "^1.0.0"
+    "@session.js/types": "1.0.3"
   }
 }
