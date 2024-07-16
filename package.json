@@ -1,7 +1,6 @@
 {
   "name": "@session.js/file-keyval-storage",
-  "version": "1.0.1",
-  "module": "src/index.ts",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Viktor Shchelochkov <hi@hloth.dev> (https://hloth.dev)",
@@ -26,6 +25,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@session.js/types": "1.0.3"
+    "@session.js/types": "1.0.4"
   }
 }
