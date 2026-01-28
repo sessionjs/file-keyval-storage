@@ -1,30 +1,41 @@
 {
-  "name": "@session.js/file-keyval-storage",
-  "version": "1.0.2",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "author": "Viktor Shchelochkov <hi@hloth.dev> (https://hloth.dev)",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sessionjs/file-keyval-storage.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sessionjs/file-keyval-storage/issues"
-  },
-  "homepage": "https://github.com/sessionjs/file-keyval-storage#readme",
-  "description": "Persistant file-based key-value storage adapter for @session.js/client",
-  "type": "module",
-  "files": [
-    "dist/index.js",
-    "dist/index.d.ts"
-  ],
-  "scripts": {
-    "build": "rm -rf dist && tsc --project tsconfig.build.json"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "@session.js/types": "1.0.4"
-  }
+	"name": "@session.js/file-keyval-storage",
+	"version": "1.0.3",
+	"description": "Persistant file-based key-value storage adapter for @session.js/client",
+	"homepage": "https://git.hloth.dev/session.js/file-keyval-storage#readme",
+	"bugs": {
+		"url": "https://git.hloth.dev/session.js/file-keyval-storage/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://git.hloth.dev/session.js/file-keyval-storage.git"
+	},
+	"funding": "https://hloth.dev/donate",
+	"license": "MIT",
+	"author": "Viktor Shchelochkov <hi@hloth.dev> (https://hloth.dev)",
+	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist/index.js",
+		"dist/index.d.ts",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"build": "rm -rf dist && tsc --project tsconfig.build.json"
+	},
+	"dependencies": {
+		"@session.js/types": "^1.0.14"
+	},
+	"devDependencies": {
+		"@eslint/compat": "^2.0.1",
+		"@eslint/js": "^9.39.2",
+		"eslint-config-prettier": "^10.1.8",
+		"prettier": "^3.8.0",
+		"typescript-eslint": "^8.53.1"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
 }
